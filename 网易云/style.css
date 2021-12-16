@@ -1,0 +1,390 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+#top
+{
+    height: 105px;
+}
+#firsttop
+{
+    padding-left: 195px;
+    padding-right: 153px;
+    height: 70px;
+    background: rgb(36, 36, 36);
+    text-align: center;
+}
+#logo
+{
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    background: rgb(36, 36, 36);
+    padding: 3px 0px;
+
+}
+#firsttable
+{
+    width: 630px;
+    height: 70px;
+    float: left;
+}
+#firstli
+{
+    background-color: black;
+    width: 106px;
+    color: white;
+    padding: 22px 0px;
+    font-size: 14px;
+}
+#firstli p
+{
+    color: white;
+    font-size: 14px;
+}
+#firsttable ul li
+{
+    width: 105px;
+    height: 70px;
+    float: left;
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+    display: block;
+    padding: 0px 0px;
+}
+#firsttable ul li a
+{
+    width: 106px;
+    height: 70px;
+    position: relative;
+    float: left;
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+    padding: 22px 0px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+#firsttable ul li a:hover
+{
+    background-color: black;
+    color: white;
+    height: 25px;
+}
+
+#nexttable
+{
+    background-color: rgb(194, 12, 12);
+    height: 35px;
+    width: 1719px;
+    padding-left: 405px;
+    padding-right: 210px;
+    float: left;
+
+}
+#nexttable ul li
+{
+    width: 134px;
+    position: relative;
+    float: left;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 5px 0px;
+    text-align: center;
+    line-height: 20px;
+}
+#nexttable ul li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 0px 0px;
+    font-size: 12px;
+}
+#nextli
+{
+    width: 86px;
+
+    background: rgb(194, 12, 12);
+    padding: 4px 0px;
+    margin: -4px 0px;
+
+}
+#firstnextli
+{
+    background: url(图片1.png);
+    width: 86px;
+    padding: 4px 0px;
+    margin: -4px 0px;
+}
+#nextli:hover
+{
+    background: url(图片1.png);
+}
+#nextli a:hover
+{
+        padding: 0px 0px;
+        margin: 0px 0px;
+}
+#search
+{
+    width: 220px;
+    height: 30px;
+    background:url(图片2.png);
+    float: left;
+    margin: 20px 15px;
+}
+#inputsearch
+{
+    margin: 7px 0px 0px 21px;
+    padding: 0px 0px 0px 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-style: none;
+    color: gray;
+}
+#searchbuttondiv
+{
+    position: absolute;
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    top: 18px;
+    right: 230px;
+}
+#searchbutton
+{
+    position: relative;
+    line-height: 30px;
+    vertical-align: middle;
+    height: 30px;
+}
+#logindiv
+{
+
+    width: 105px;
+    height: 70px;
+    float: left;
+
+}
+#login
+{
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: 15px;
+}
+#logindiv1 div a:hover
+{
+    color: rgb(153 , 153, 153);
+    border-bottom: solid 1px;
+}
+#logindiv2
+{
+    padding-top: 20px;
+}
+#logindiv2 a :hover
+{
+    color: rgb(120, 120, 120);
+}
+#recommend
+{
+    background-color: rgb(229,195,131);
+    height: 285px;
+}
+#mainreco
+{
+    width: 982px;
+    height: 285px;
+    z-index: -1;
+    margin: 0 auto;
+    background-color:  rgb(229,195,131);
+}
+#downloadwindow
+{
+    width: 254px;
+    height: 285px;
+    top: 105px;
+    left: 995.5px;
+    background-image: url(downloadchannel.jpg);
+
+    position: absolute;
+}
+.movelabel
+{
+    width: 37px;
+    height: 63px;
+    position: absolute;
+    top: 216px;
+}
+#imgdiv ul li
+{
+    list-style: none;
+}
+#adimg
+{
+    width: 728px;
+    height: 285px;
+    position: absolute;
+    top: 105px;
+    left: 267px;
+}
+#buttomli
+{
+    width: 730px;
+    height: 20px;
+    z-index: 4;
+    position: absolute;
+    top: 358px;
+    left: 267px;
+}
+
+#buttomli ul li
+{
+    float: left;
+    list-style: none;
+    padding: 5px 31px;
+}
+.acircle
+{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50% 50%;
+    text-align: center;
+}
+.on
+{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 250px;
+    transition: 2s;
+
+}
+.out
+{
+    opacity: 0;
+    display: block;
+    width: 100%;
+    height: 250px;
+    transition: 2s;
+}
+#downloadchannel
+{
+    border-top: solid 5px red;
+    height: 650px;
+    position: relative;
+    background-color: black;
+}
+#songdiv{
+    margin-left: 234px;
+    height: 650px;
+    width: 360px;
+    overflow: auto;
+}
+#songlist tr td{
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+}
+#songlist tr td:hover{
+    background: rgb(240,241,242);
+}
+#playdiv{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(35,35,35);
+}
+#song{
+    margin-left: 400px;
+    margin-top: 2.5px;
+    width: 700px;
+    float: left;
+    color: rgb(35,35,35);
+}
+.td2{
+    background: rgb(249,249,249);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 歌手TOP30 */
+.artist
+{
+    height: 550px;
+    background-color: #eca4b8;
+}
+.Artist
+{
+    height: 1000px;
+    margin: 100px,0px;
+}
+.artistimg
+{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+.artist_div
+{
+    width: 120px;
+    height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*歌单*/
+.Recommendlist
+{
+    height: 390px;
+    width: 983px;
+    background-color: white;
+    margin: 0px 266px;
+}
+.Recommendlistimg
+{
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px;
+    text-align: center;
+} 
+.listhref
+{
+    text-decoration: none;
+}
+.Recommendlisttd
+{
+    width: 150px;
+    height: 150px;
+    margin: 20px 40px;
+    float: left;
+
+}
+p
+{
+    color: black;
+}

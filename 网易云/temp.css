@@ -1,0 +1,23 @@
+.Recommendlist
+{
+    height: 390px;
+    width: 983px;
+    background-color: white;
+    margin: 0px 266px;
+}
+.Recommendlistimg
+{
+    width: 100px;
+    height: 100px;
+    margin: 20px 20px;
+} 
+.listhref
+{
+    text-decoration: none;
+}
+.Recommendlisttd
+{
+    width: 100px;
+    height: 100px;
+    margin: 20px 20px;
+}
